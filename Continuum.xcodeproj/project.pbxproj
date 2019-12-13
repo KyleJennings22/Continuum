@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AEC83F23A03797002F1815 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC83E23A03797002F1815 /* PostListTableViewController.swift */; };
+		27AEC84123A037D8002F1815 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC84023A037D8002F1815 /* PostDetailTableViewController.swift */; };
+		27AEC84323A03899002F1815 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC84223A03899002F1815 /* AddPostTableViewController.swift */; };
+		27AEC84723A038CC002F1815 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC84623A038CC002F1815 /* Post.swift */; };
+		27AEC84923A03B56002F1815 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC84823A03B56002F1815 /* Comment.swift */; };
+		27AEC84B23A03BBD002F1815 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC84A23A03BBD002F1815 /* PostController.swift */; };
+		27AEC84E23A03DDD002F1815 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC84D23A03DDD002F1815 /* PostTableViewCell.swift */; };
+		27AEC85123A054C6002F1815 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC85023A054C6002F1815 /* DateExtension.swift */; };
+		27AEC88723A18B41002F1815 /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC88623A18B41002F1815 /* SearchableRecord.swift */; };
+		27AEC88923A19BDE002F1815 /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AEC88823A19BDE002F1815 /* PhotoSelectorViewController.swift */; };
+		27C360C723A2F916004502FB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C360C623A2F916004502FB /* CloudKit.framework */; };
 		F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F99C382211F96400D13C4C /* AppDelegate.swift */; };
 		F7F99C3E2211F96400D13C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3C2211F96400D13C4C /* Main.storyboard */; };
 		F7F99C402211F96600D13C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3F2211F96600D13C4C /* Assets.xcassets */; };
@@ -14,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27AEC83E23A03797002F1815 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		27AEC84023A037D8002F1815 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		27AEC84223A03899002F1815 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
+		27AEC84623A038CC002F1815 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		27AEC84823A03B56002F1815 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		27AEC84A23A03BBD002F1815 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		27AEC84D23A03DDD002F1815 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		27AEC85023A054C6002F1815 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		27AEC88623A18B41002F1815 /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
+		27AEC88823A19BDE002F1815 /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
+		27C360C423A2F907004502FB /* Continuum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Continuum.entitlements; sourceTree = "<group>"; };
+		27C360C623A2F916004502FB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		F7F99C352211F96400D13C4C /* Continuum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continuum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F99C382211F96400D13C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F99C3D2211F96400D13C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,17 +50,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C360C723A2F916004502FB /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27AEC83D23A03786002F1815 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27AEC83E23A03797002F1815 /* PostListTableViewController.swift */,
+				27AEC84023A037D8002F1815 /* PostDetailTableViewController.swift */,
+				27AEC84223A03899002F1815 /* AddPostTableViewController.swift */,
+				27AEC88823A19BDE002F1815 /* PhotoSelectorViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		27AEC84423A038B4002F1815 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27AEC84623A038CC002F1815 /* Post.swift */,
+				27AEC84823A03B56002F1815 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27AEC84523A038B9002F1815 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27AEC84A23A03BBD002F1815 /* PostController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		27AEC84C23A03DCE002F1815 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				27AEC84D23A03DDD002F1815 /* PostTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		27AEC84F23A054BA002F1815 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27AEC85023A054C6002F1815 /* DateExtension.swift */,
+				27AEC88623A18B41002F1815 /* SearchableRecord.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		27C360C523A2F916004502FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C360C623A2F916004502FB /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F7F99C2C2211F96400D13C4C = {
 			isa = PBXGroup;
 			children = (
 				F7F99C372211F96400D13C4C /* Continuum */,
 				F7F99C362211F96400D13C4C /* Products */,
+				27C360C523A2F916004502FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +130,12 @@
 		F7F99C372211F96400D13C4C /* Continuum */ = {
 			isa = PBXGroup;
 			children = (
+				27C360C423A2F907004502FB /* Continuum.entitlements */,
+				27AEC84F23A054BA002F1815 /* Helpers */,
+				27AEC84C23A03DCE002F1815 /* Custom Cells */,
+				27AEC84523A038B9002F1815 /* Model Controllers */,
+				27AEC84423A038B4002F1815 /* Models */,
+				27AEC83D23A03786002F1815 /* View Controllers */,
 				F7F99C382211F96400D13C4C /* AppDelegate.swift */,
 				F7F99C3C2211F96400D13C4C /* Main.storyboard */,
 				F7F99C3F2211F96600D13C4C /* Assets.xcassets */,
@@ -93,6 +177,7 @@
 				TargetAttributes = {
 					F7F99C342211F96400D13C4C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -132,7 +217,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AEC88723A18B41002F1815 /* SearchableRecord.swift in Sources */,
 				F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */,
+				27AEC88923A19BDE002F1815 /* PhotoSelectorViewController.swift in Sources */,
+				27AEC84923A03B56002F1815 /* Comment.swift in Sources */,
+				27AEC83F23A03797002F1815 /* PostListTableViewController.swift in Sources */,
+				27AEC84E23A03DDD002F1815 /* PostTableViewCell.swift in Sources */,
+				27AEC85123A054C6002F1815 /* DateExtension.swift in Sources */,
+				27AEC84323A03899002F1815 /* AddPostTableViewController.swift in Sources */,
+				27AEC84B23A03BBD002F1815 /* PostController.swift in Sources */,
+				27AEC84123A037D8002F1815 /* PostDetailTableViewController.swift in Sources */,
+				27AEC84723A038CC002F1815 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,16 +373,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Continuum/Continuum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
+				DEVELOPMENT_TEAM = T6W6ADR42Z;
 				INFOPLIST_FILE = Continuum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylejennings.Continuum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -296,16 +392,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Continuum/Continuum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
+				DEVELOPMENT_TEAM = T6W6ADR42Z;
 				INFOPLIST_FILE = Continuum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylejennings.Continuum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
